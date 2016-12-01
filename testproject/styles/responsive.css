@@ -1,0 +1,1142 @@
+@media only screen and (max-width:720px), (max-width:760px), (max-width:980px), (max-width:100%) {
+  body {
+    font-size: 15px;
+  }
+  img {
+    width: 100%;
+    display: block;
+  }
+  select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+  #main {
+    width: 100%;
+  }
+  .details_holder {
+    width: 96%;
+    float: left;
+    padding: 0 2%;
+  }
+  /*** HEADER and FOOTER ****/
+  .header {
+    padding: 0;
+  }
+  .logo {
+    width: 100%;
+    float: left;
+    padding: 15px 0;
+    border-bottom: 0px solid #ccc;
+  }
+  .logo img {
+    width: 350px;
+    margin: 0 auto;
+  }
+  .phone2 {
+    width: 100%;
+    font-size: 24px;
+    padding: 0;
+    text-align: center;
+    padding: 10px 0
+  }
+  .header_content, .phone2 {
+    display: none;
+  }
+  .footer_content {
+    display: block;
+    width: 100%;
+    float: left;
+    border-top: 2px solid #ccc;
+    padding: 15px 0;
+  }
+  .footer_content .text_holder {
+    width: 100%;
+    float: right;
+    text-align: right;
+    color: #49453e;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 0 0 0 0;
+  }
+  .footer_content .text_holder a {
+    color: #49453e;
+    text-decoration: none;
+    padding: 2px 5px;
+  }
+  .footer_content .text_holder a:hover {
+    background: #68bd45;
+    color: #fff;
+  }
+  .footer_content .fb_like {
+    width: 230px;
+    float: left;
+    padding: 10px 0 0 0;
+  }
+  .footer_content .phone {
+    width: 200px;
+    float: right;
+    text-align: right;
+    font-size: 24px;
+    color: #49453e
+  }
+  .footer {
+    padding: 25px 0;
+    margin: 0;
+  }
+  .footer .text_holder {
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    padding: 0 0 20px 0;
+    line-height: 25px;
+  }
+  .footer .text_holder img {
+    width: 370px;
+    margin: 0 auto;
+  }
+  .footer .ico_holder {
+    width: 260px;
+    float: none;
+    margin: 0 auto;
+    clear: both;
+    padding: 20px 0 0 0
+  }
+  .footer .ico_holder ul li {
+    width: 35px;
+    margin: 0 15px;
+  }
+  /*** HOME PAGE ***/
+  .home_banner h1 {
+    font-size: 40px;
+  }
+  .home_banner h2 {
+    font-size: 25px;
+    padding: 10px 0 40px 0;
+  }
+  .home_banner .search_holder {
+    width: 550px;
+    margin: 0 auto;
+  }
+  .homejob_withus h3, .home_video h1, .faq_container h2, .who_need_help h3, .about_us_content h3, .find_job h4 {
+    font-size: 30px;
+  }
+  .homejob_withus ul li {
+    width: 29.333%;
+    padding: 0 2%;
+    font-size: 14px;
+  }
+  .homejob_withus ul li h4 {
+    font-size: 18px;
+    padding: 10px 0;
+  }
+  .homejob_withus ul li h4 span {
+    font-size: 24px;
+  }
+  .homejob_withus ul li img {
+    width: 190px;
+  }
+  .home_video .video_player iframe {
+    width: 800px;
+    height: 450px;
+  }
+  .faq_container .text_holder {
+    width: 96%;
+    padding: 0 2%;
+  }
+  .faq_container ul li {
+    padding: 0 0 20px 0;
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .who_need_help img {
+    width: 80%;
+  }
+  .about_us_content .text_holder {
+    width: 96%;
+    padding: 0 2%;
+    font-size: 16px;
+  }
+  .find_job a {
+    font-size: 40px;
+    padding: 5px 0;
+  }
+  /*** CHECKOUT PAGE ***/
+  .purchase_details .title {
+    padding: 5px 2%;
+    font-size: 20px;
+  }
+  .purchase_discription {
+    width: 70%;
+    float: left;
+    padding: 15px 0 0 0;
+  }
+  .purchase_discription h1 {
+    font-size: 20px;
+  }
+  .price_details {
+    width: 22%;
+  }
+  .price_details .price {
+    font-size: 23px;
+  }
+  .price_details .time_remaining {
+    width: 94%;
+    padding: 10px 3%;
+    font-size: 15px;
+  }
+  .price_details .time_remaining span {
+    font-size: 35px;
+  }
+  .checkout_form_main {
+    width: 100%;
+  }
+  .checkout_form {
+    width: 96%;
+    font-size: 16px;
+    padding: 20px 2%
+  }
+  .checkout_form .textbox {
+    width: 48%;
+    float: left;
+    padding: 0 1% 15px 1%;
+  }
+  .checkout_form .textbox select.other {
+    float: left;
+    margin: 5px 15px 0 0;
+    background: url(../images/arrow2.png) no-repeat 90% 10px #fff;
+    padding: 0 25px 0 10px;
+    height: 35px;
+    width: 95%;
+  }
+  .checkout_form .btn_holder {
+    width: 100%;
+    font-size: 13px;
+    padding: 0
+  }
+  .checkout_form .btn_holder img {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .checkout_form .btn_holder img.cards {
+    width: 227px;
+    margin: 0 auto;
+    display: block;
+    padding: 10px 0;
+  }
+  .check_container .sidebar {
+    width: 100%;
+    padding: 20px 0;
+  }
+  .check_container .sidebar ul li {
+    width: 29%;
+    padding: 0 2%;
+  }
+  .top_tagline {
+    font-size: 25px;
+  }
+  /*** COMPARE PAGE ***/
+  .watch_video {
+    padding: 20px 0;
+  }
+  .watch_video h2 {
+    font-size: 25px;
+  }
+  .watch_video .btn_holder {
+    font-size: 25px;
+  }
+  /**** LOGIN PAGE ***/
+  .login_container {
+    padding: 20px 0;
+  }
+  .login_form {
+    width: 70%;
+    padding: 25px 10%;
+  }
+  .login_form .text_holder {
+    width: 25%;
+    font-size: 25px;
+  }
+  .login_form .textbox {
+    width: 70%;
+  }
+  .login_form .robot img {
+    width: 240px;
+    margin: 0 auto;
+  }
+  .login_form .btn_holder input {
+    width: 50%;
+    font-size: 35px;
+  }
+  .login_container .forgot_pass {
+    font-size: 16px;
+  }
+  /*** ALL STEPS CLASS HERE ***/
+  .progress span {
+    height: 50px;
+    font-size: 15px;
+    line-height: 45px;
+    text-align: right;
+  }
+  .survey_step_wrapper {
+    width: 100%;
+    padding: 20px 0 35px 0;
+    margin-bottom: 5px;
+  }
+  .survey_step_wrapper h1 {
+    font-size: 25px;
+    padding: 0 2% 20px 2%;
+    width: 96%;
+    float: left;
+  }
+  .survey_step_wrapper h1 br {
+    display: none;
+  }
+  .survey_step_wrapper h2 {
+    font-size: 25px;
+    padding: 7px 2%;
+    width: 96%;
+    float: left
+  }
+  .survey_step_wrapper .btn_holder a {
+    font-size: 40px;
+    padding: 5px 50px;
+  }
+  /*** THANK YOU PAGE ***/
+  .thankyou_content {
+    width: 100%;
+    padding: 20px 0;
+  }
+  .thankyou_content .title {
+    padding: 0 0 20px 0;
+    font-size: 20px;
+  }
+  .thankyou_content .main_text {
+    font-size: 16px;
+    line-height: normal;
+  }
+  .thankyou_content .main_text .img_holder {
+    width: 265px;
+  }
+  .thankyou_content .main_text .text_holder {
+    width: 60%;
+  }
+  .thankyou_content .main_text .text_holder span {
+    font-size: 20px;
+  }
+  .thankyou_content .main_text .text_holder strong.color {
+    font-size: 16px;
+  }
+  .import_nextstep {
+    width: 100%;
+    padding: 0 0 20px 0;
+  }
+  .import_nextstep .title {
+    padding: 0 0 20px 0;
+    font-size: 20px;
+  }
+  .import_nextstep .text_holder {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width:600px), (max-width:650px), (max-width:680px) {
+  body {
+    font-size: 14px;
+  }
+  /*** HOME PAGE ***/
+  .home_banner {
+    padding: 35px 0;
+    height: auto;
+  }
+  .home_banner h1 {
+    font-size: 30px;
+    letter-spacing: -1px;
+    padding: 0;
+  }
+  .home_banner h2 {
+    font-size: 20px;
+    letter-spacing: normal;
+    padding: 20px 0 0px 0;
+  }
+  .home_banner .search_container {
+    margin-top: 30px;
+    width: 96%;
+    padding: 15px 2%;
+  }
+  .home_banner .search_holder {
+    width: 100%;
+    float: left;
+  }
+  .home_banner .search_holder .textbox {
+    width: 70%;
+    padding: 0 15% 10px 15%;
+  }
+  .home_banner .search_holder .textbox input {
+    height: 60px;
+    font-size: 40px;
+  }
+  .home_banner .search_holder .btn_holder {
+    width: 215px;
+    float: none;
+    margin: 0 auto;
+    padding: 0 0 0 10px;
+  }
+  .home_banner .search_holder .btn_holder input {
+    height: 61px;
+    font-size: 35px;
+  }
+  .homejob_withus h3, .home_video h1, .faq_container h2, .who_need_help h3, .about_us_content h3, .find_job h4 {
+    font-size: 25px;
+  }
+  .homejob_withus ul li {
+    width: 31.333%;
+    padding: 0 1%;
+    font-size: 14px;
+  }
+  .homejob_withus ul li h4 {
+    font-size: 16px;
+    padding: 10px 0;
+  }
+  .homejob_withus ul li h4 span {
+    font-size: 20px;
+  }
+  .homejob_withus ul li img {
+    width: 150px;
+  }
+  .home_video .video_player iframe {
+    width: 100%;
+    height: 350px;
+  }
+  .faq_container ul li {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .who_need_help img {
+    width: 92%;
+  }
+  .about_us_content .text_holder {
+    font-size: 14px;
+  }
+  .find_job a {
+    font-size: 30px;
+  }
+  /*** CHECKOUT PAGE ***/
+  .secure_checkout span {
+    font-size: 25px;
+    background: url(../images/secure-lock.png) no-repeat 0 0;
+    padding: 0 0 0 40px;
+  }
+  .purchase_details .title {
+    padding: 5px 2%;
+    font-size: 18px;
+  }
+  .purchase_discription {
+    width: 70%;
+    float: left;
+    padding: 15px 0 0 0;
+  }
+  .purchase_discription h1 {
+    font-size: 18px;
+  }
+  .price_details {
+    width: 22%;
+  }
+  .price_details .price {
+    font-size: 18px;
+  }
+  .price_details .time_remaining {
+    width: 96%;
+    padding: 10px 2%;
+    font-size: 13px;
+  }
+  .price_details .time_remaining span {
+    font-size: 30px;
+  }
+  .checkout_form {
+    font-size: 14px;
+  }
+  .checkout_form .textbox input {
+    height: 35px;
+  }
+  .checkout_form .btn_holder {
+    font-size: 11px;
+  }
+  .top_tagline {
+    font-size: 22px;
+  }
+  /*** COMPARE PAGE ***/
+  .watch_video h2 {
+    font-size: 22px;
+  }
+  .watch_video .btn_holder {
+    font-size: 22px;
+  }
+  /**** LOGIN PAGE ***/
+  .login_form {
+    width: 82%;
+    padding: 25px 5%;
+  }
+  .login_form .text_holder {
+    width: 25%;
+    font-size: 20px;
+  }
+  .login_form .textbox {
+    width: 72%;
+  }
+  .login_form .robot img {
+    width: 240px;
+    margin: 0 auto;
+  }
+  .login_form .btn_holder input {
+    width: 50%;
+    font-size: 35px;
+  }
+  .login_container .forgot_pass {
+    font-size: 16px;
+  }
+  /*** ALL STEPS CLASS HERE ***/
+  .progress span {
+    height: 40px;
+    font-size: 14px;
+    line-height: 35px
+  }
+  .survey_step_wrapper h1 {
+    font-size: 22px
+  }
+  .survey_step_wrapper h2 {
+    font-size: 22px
+  }
+  .survey_step_wrapper .btn_holder a {
+    font-size: 35px;
+  }
+  /*** THANK YOU PAGE ***/
+  .thankyou_content .title {
+    font-size: 18px;
+  }
+  .thankyou_content .main_text {
+    font-size: 14px;
+  }
+  .thankyou_content .main_text .img_holder {
+    width: 40%;
+  }
+  .thankyou_content .main_text .text_holder {
+    width: 55%;
+  }
+  .thankyou_content .main_text .text_holder span {
+    font-size: 18px;
+  }
+  .thankyou_content .main_text .text_holder strong.color {
+    font-size: 14px;
+  }
+  .import_nextstep .title {
+    font-size: 18px;
+  }
+  .import_nextstep .text_holder {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width:500px), (max-width:580px) {
+  /*** HOME PAGE ***/
+  .home_banner {
+    padding: 40px 0 40px 0;
+  }
+  .home_banner h1 {
+    font-size: 28px;
+  }
+  .home_banner h2 {
+    font-size: 21px;
+    padding: 20px 0 0px 0;
+  }
+  .home_banner .search_holder .textbox {
+    width: 70%;
+    padding: 0 15%;
+  }
+  .home_banner .search_holder .textbox input {
+    height: 50px;
+    font-size: 40px;
+  }
+  .home_banner .search_holder .btn_holder {
+    width: 100%;
+    padding: 0;
+    float: left;
+    padding: 15px 0 0 0;
+  }
+  .home_banner .search_holder .btn_holder input {
+    height: 56px;
+    font-size: 32px;
+  }
+  .homejob_withus h3, .home_video h1, .faq_container h2, .who_need_help h3, .about_us_content h3, .find_job h4 {
+    font-size: 22px;
+  }
+  .homejob_withus ul li {
+    width: 90%;
+    padding: 15px 5%;
+    font-size: 14px;
+    border-bottom: 2px solid #ccc;
+  }
+  .homejob_withus ul li:first-child {
+    padding: 0 5% 15px 5%;
+  }
+  .homejob_withus ul li:last-child {
+    border: 0;
+    padding: 15px 5% 0 5%;
+  }
+  .homejob_withus ul li img {
+    width: 190px;
+  }
+  .home_video .video_player iframe {
+    width: 100%;
+    height: 300px;
+  }
+  .find_job a {
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width:400px), (max-width:450px), (max-width:480px) {
+  .footer .text_holder img {
+    width: 95%;
+    margin: 0 auto;
+  }
+  /*** HOME PAGE ***/
+  .home_banner {
+    padding: 25px 0;
+  }
+  .home_banner h1 {
+    font-size: 25px;
+  }
+  .home_banner h2 {
+    font-size: 19px;
+    padding: 20px 0 0px 0;
+  }
+  .home_banner .search_holder .textbox input {
+    height: 35px;
+    font-size: 25px;
+  }
+  .home_banner .search_holder .btn_holder img {
+    width: 190px;
+  }
+  .home_banner .search_holder .btn_holder input {
+    height: 56px;
+    font-size: 32px;
+  }
+  .homejob_withus h3, .home_video h1, .faq_container h2, .who_need_help h3, .about_us_content h3, .find_job h4 {
+    font-size: 22px;
+  }
+  .homejob_withus ul li img {
+    width: 160px;
+  }
+  .home_video .video_player iframe {
+    width: 100%;
+    height: 260px;
+  }
+  .find_job a {
+    font-size: 25px;
+  }
+  /*** CHECKOUT PAGE ***/
+  .checkout_form .btn_holder img {
+    width: 90%;
+  }
+  .top_tagline {
+    font-size: 18px;
+  }
+  /*** COMPARE PAGE ***/
+  .watch_video h2 {
+    font-size: 18px;
+  }
+  .watch_video .btn_holder {
+    font-size: 18px;
+  }
+  /**** LOGIN PAGE ***/
+  .login_form {
+    width: 82%;
+    padding: 25px 5%;
+  }
+  .login_form .text_holder {
+    width: 25%;
+    font-size: 18px;
+    line-height: 40px;
+    height: 50px;
+  }
+  .login_form .textbox {
+    width: 72%;
+    height: 50px;
+  }
+  .login_form .textbox input {
+    height: 40px;
+  }
+  .login_form .robot img {
+    width: 240px;
+    margin: 0 auto;
+  }
+  .login_form .btn_holder input {
+    width: 50%;
+    font-size: 25px;
+    height: 55px;
+  }
+  .login_container .forgot_pass {
+    font-size: 14px;
+  }
+  /*** ALL STEPS CLASS HERE ***/
+  .survey_step_wrapper h1 {
+    font-size: 18px
+  }
+  .survey_step_wrapper h2 {
+    font-size: 18px
+  }
+  .survey_form_content ul li {
+    font-size: 16px;
+  }
+  .survey_form_content ul li input {
+    margin: 4px 10px 0 15px;
+  }
+  .survey_step_wrapper .btn_holder a {
+    font-size: 30px;
+  }
+  /*** THANK YOU PAGE ***/
+  .thankyou_content .title {
+    font-size: 16px;
+  }
+  .thankyou_content .main_text {
+    font-size: 13px;
+  }
+  .thankyou_content .main_text .img_holder {
+    width: 35%;
+  }
+  .thankyou_content .main_text .text_holder {
+    width: 60%;
+    line-height: 15px;
+  }
+  .thankyou_content .main_text .text_holder span {
+    font-size: 16px;
+  }
+  .thankyou_content .main_text .text_holder strong.color {
+    font-size: 13px;
+  }
+  .import_nextstep .title {
+    font-size: 16px;
+  }
+  .import_nextstep .text_holder {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width:300px), (max-width:320px), (max-width:390px) {
+  /*** HEADER and FOOTER ****/
+  .logo img, .footer .text_holder img {
+    width: 95%;
+  }
+  .phone2 {
+    font-size: 20px;
+  }
+  .footer_content .text_holder {
+    text-align: center;
+  }
+  .footer_content .fb_like {
+    width: 100%;
+    padding: 10px 0;
+  }
+  .footer_content .fb_like img {
+    margin: 0 auto;
+    width: 230px;
+  }
+  .footer_content .phone {
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+  }
+  .footer {
+    margin: 0;
+  }
+  .footer {
+    padding: 20px 0;
+  }
+  .footer br.mobile {
+    display: block;
+  }
+  .footer .text_holder {
+    font-size: 12px;
+  }
+  .footer .ico_holder {
+    width: 180px;
+  }
+  .footer .ico_holder ul li {
+    width: 25px;
+    margin: 0 10px;
+  }
+  /*** HOME PAGE ***/
+  .home_banner {
+    padding: 30px 0 30px 0;
+  }
+  .home_banner h1 {
+    font-size: 28px;
+    padding: 0 0 20px 0;
+  }
+  .home_banner h2 {
+    font-size: 16px;
+    padding: 10px 0 0px 0;
+  }
+  .home_banner .search_container {
+    margin-top: 20px;
+    width: 90%;
+    padding: 15px 5%;
+  }
+  .home_banner .search_holder .textbox {
+    width: 100%;
+    padding: 0 0 10px 0;
+  }
+  .home_banner .search_holder .textbox input {
+    height: 40px;
+    font-size: 25px;
+  }
+  .home_banner .search_holder .btn_holder {
+    width: 100%;
+    padding: 0 0%
+  }
+  .home_banner .search_holder .btn_holder input {
+    height: 46px;
+    font-size: 25px;
+  }
+  .homejob_withus h3, .home_video h1, .faq_container h2, .who_need_help h3, .about_us_content h3, .find_job h4 {
+    font-size: 18px;
+  }
+  .homejob_withus ul li h4 {
+    padding: 5px 0;
+  }
+  .homejob_withus ul li img {
+    width: 160px;
+  }
+  .home_video .video_player iframe {
+    width: 100%;
+    height: 200px;
+  }
+  .find_job a {
+    font-size: 20px;
+    width: 70%;
+  }
+  /*** CHECKOUT PAGE ***/
+  .purchase_details .title {
+    padding: 5px 2%;
+    font-size: 16px;
+    text-align: center;
+  }
+  .purchase_details .title span {
+    display: none;
+  }
+  .purchase_discription {
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+  }
+  .purchase_discription h1 {
+    font-size: 16px;
+  }
+  .price_details {
+    width: 70%;
+    padding: 10px 15%;
+  }
+  .price_details .title {
+    padding: 5px 2%;
+    font-size: 16px;
+    text-align: center;
+    width: 96%;
+    background: #68bd45;
+    color: #fff;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    display: block;
+  }
+  .price_details .price {
+    font-size: 18px;
+    padding: 10px 0
+  }
+  .price_details .time_remaining {
+    width: 96%;
+    padding: 10px 2%;
+    font-size: 14px;
+  }
+  .price_details .time_remaining span {
+    font-size: 35px;
+  }
+  .checkout_form {
+    font-size: 14px;
+    padding: 20px 5%;
+    width: 90%;
+  }
+  .checkout_form .textbox {
+    width: 100%;
+    padding: 0 0 15px 0;
+  }
+  .checkout_form .textbox select.other {
+    background: url(../images/arrow2.png) no-repeat 97% 10px #fff;
+    width: 100%;
+  }
+  .checkout_form .textbox ul li {
+    width: 30%;
+    padding: 0 0 10px 0;
+  }
+  .checkout_form .textbox ul li:last-child {
+    padding: 0;
+  }
+  .checkout_form .btn_holder {
+    font-size: 11px;
+    width: 100%;
+    padding: 0;
+  }
+  .checkout_form .btn_holder img {
+    width: 100%;
+  }
+  .check_container .sidebar ul li {
+    width: 90%;
+    padding: 0 5% 20px 5%;
+  }
+  .top_tagline {
+    font-size: 16px;
+    letter-spacing: normal;
+  }
+  /*** COMPARE PAGE ***/
+  .watch_video h2 {
+    font-size: 16px;
+    letter-spacing: normal;
+  }
+  .watch_video .btn_holder {
+    font-size: 16px;
+  }
+  /**** LOGIN PAGE ***/
+  .login_form {
+    width: 82%;
+    padding: 25px 5%;
+  }
+  .login_form .text_holder {
+    width: 100%;
+    font-size: 15px;
+    line-height: normal;
+    height: auto;
+    text-align: left;
+  }
+  .login_form .textbox {
+    width: 100%;
+    height: auto;
+    padding: 0 0 10px 0;
+  }
+  .login_form .textbox input {
+    height: 35px;
+  }
+  .login_form .btn_holder input {
+    width: 80%;
+    font-size: 25px;
+    height: 45px;
+  }
+  .login_container .forgot_pass {
+    font-size: 12px;
+  }
+  /*** ALL STEPS CLASS HERE ***/
+  .progress span {
+    height: 40px;
+    font-size: 12px;
+    line-height: 35px
+  }
+  .survey_step_wrapper h1 {
+    font-size: 16px
+  }
+  .survey_step_wrapper h2 {
+    font-size: 16px
+  }
+  .survey_form_content ul li {
+    font-size: 16px;
+  }
+  .survey_form_content ul li input {
+    margin: 4px 10px 0 15px;
+  }
+  .survey_step_wrapper .btn_holder a {
+    font-size: 25px;
+  }
+  /*** THANK YOU PAGE ***/
+  .thankyou_content .main_text .img_holder {
+    width: 90%;
+    padding: 0 5% 10px 5%;
+  }
+  .thankyou_content .main_text .text_holder {
+    width: 90%;
+    padding: 0 5%;
+  }
+}
+@media only screen and (max-width:200px), (max-width:240px), (max-width:280px) {
+  /*** HEADER and FOOTER ****/
+  .logo img {
+    width: 95%;
+  }
+  .header_content {
+    padding: 5px 0;
+  }
+  .phone2 {
+    font-size: 18px;
+  }
+  .footer_content .fb_like img {
+    margin: 0 auto;
+    width: 200px;
+  }
+  .footer_content .phone {
+    font-size: 18px;
+  }
+  /*** HOME PAGE ***/
+  .home_banner {
+    padding: 30px 0;
+  }
+  .home_banner h1 {
+    font-size: 20px;
+    padding: 0 0 20px 0;
+  }
+  .home_banner h2 {
+    font-size: 15px;
+    padding: 10px 0 0px 0;
+  }
+  .home_banner .search_holder .btn_holder img {
+    width: 150px;
+  }
+  .homejob_withus h3, .home_video h1, .faq_container h2, .who_need_help h3, .about_us_content h3, .find_job h4 {
+    font-size: 13px;
+  }
+  .homejob_withus ul li img {
+    width: 140px;
+  }
+  .home_video .video_player iframe {
+    width: 100%;
+    height: 200px;
+  }
+  .faq_container ul li, .about_us_content .text_holder {
+    font-size: 12px;
+  }
+  .find_job a {
+    font-size: 16px;
+    width: 70%;
+  }
+  /*** CHECKOUT PAGE **/
+  .secure_checkout {
+    padding: 10px 0;
+  }
+  .secure_checkout span {
+    font-size: 20px;
+    background: url(../images/secure-lock.png) no-repeat 0 0;
+    padding: 5px 0 5px 40px;
+  }
+  .checkout_form .btn_holder img.cards {
+    width: 100%;
+  }
+  /*** COMPARE PAGE ***/
+  .watch_video .btn_holder a {
+    display: block;
+    width: 90%;
+    float: left;
+    padding: 10px 5%;
+  }
+  /*** ALL STEPS CLASS HERE ***/
+  .survey_step_wrapper h1 {
+    font-size: 14px
+  }
+  .survey_step_wrapper h2 {
+    font-size: 14px
+  }
+  .survey_form_content ul li {
+    font-size: 14px;
+  }
+  .survey_form_content ul li input {
+    margin: 4px 10px 0 15px;
+  }
+  .survey_step_wrapper .btn_holder a {
+    font-size: 20px;
+  }
+  .free_account_form {
+    width: 96%;
+    float: left;
+    padding: 15px 2%;
+  }
+  .free_account_form .textbox input {
+    height: 35px;
+    font-size: 15px;
+  }
+  /*** LOGIN PAGE ***/
+  .login_form .robot img {
+    width: 95%;
+  }
+}
+@media only screen and (min-width:320px) and (max-width:480px) {
+  .home_video .btn_holder {
+    width: 100%;
+    float: left;
+    font-family: 'open_sansextrabold';
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 20px 0;
+  }
+  .checkout_form {
+    font-size: 14px;
+    padding: 20px 5%;
+    width: 90%;
+  }
+  .checkout_form .textbox {
+    width: 100%;
+    padding: 0 0 15px 0;
+  }
+  .checkout_form .textbox select.other {
+    background: url(../images/arrow2.png) no-repeat 97% 10px #fff;
+    width: 100%;
+  }
+  .checkout_form .textbox ul li {
+    width: 100%;
+    padding: 0 0 10px 0;
+  }
+  .checkout_form .textbox ul li:last-child {
+    padding: 0;
+  }
+  .checkout_form .btn_holder {
+    font-size: 11px;
+    width: 100%;
+    padding: 0;
+  }
+  .checkout_form .btn_holder img {
+    width: 100%;
+  }
+}
+@media only screen and (min-width:480px) and (max-width:768px) {
+  .home_video .btn_holder {
+    width: 100%;
+    float: left;
+    font-family: 'open_sansextrabold';
+    font-size: 25px;
+    text-transform: uppercase;
+    padding: 20px 0;
+  }
+  .checkout_form {
+    font-size: 14px;
+    padding: 20px 5%;
+    width: 90%;
+  }
+  .checkout_form .textbox {
+    width: 100%;
+    padding: 0 0 15px 0;
+  }
+  .checkout_form .textbox select.other {
+    background: url(../images/arrow2.png) no-repeat 97% 10px #fff;
+    width: 100%;
+  }
+  .checkout_form .textbox ul li {
+    width: 100%;
+    padding: 0 0 10px 0;
+  }
+  .checkout_form .textbox ul li:last-child {
+    padding: 0;
+  }
+  .checkout_form .btn_holder {
+    font-size: 11px;
+    width: 100%;
+    padding: 0;
+  }
+}
+@media only screen and (min-width:768px) {
+  .home_video .btn_holder {
+    width: 100%;
+    float: left;
+    font-family: 'open_sansextrabold';
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 20px 0;
+  }
+}
